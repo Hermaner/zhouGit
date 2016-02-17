@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="../js/mui.min.js"></script>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/iconfont.css" rel="stylesheet" />
+		<link href="../css/xhstyle.css" rel="stylesheet" />
+		<script type="text/javascript" charset="UTF-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body class="xh-home">
+
+		<style>
+			.mui-control-content {
+				background-color: white;
+				min-height: 450px;
+				overflow: auto;
+			}
+			
+			.mui-control-content .mui-loading {
+				margin-top: 50px;
+			}
+		</style>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-icon mui-icon-gear mui-pull-left"></a>
+			<h1 class="mui-title">商家店铺名加logo处</h1>
+			<a class="mui-icon mui-icon-search mui-pull-right"></a>
+		</header>
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item" href="#item1mobile">
+						热卖疯抢
+					</a>
+					<a class="mui-control-item" href="#item2mobile">
+						分类商品
+					</a>
+					<a class="mui-control-item" href="#item3mobile">
+						活动详情
+					</a>
+				</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div id="slider2" class="mui-slider">
+									<div class="mui-slider-group mui-slider-loop">
+										<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+										<div class="mui-slider-item mui-slider-item-duplicate">
+											<a href="#">
+												<img src="../images/yuantiao.jpg">
+											</a>
+										</div>
+										<!-- 第一张 -->
+										<div class="mui-slider-item">
+											<a href="#">
+												<img src="../images/shuijiao.jpg">
+											</a>
+										</div>
+										<!-- 第二张 -->
+										<div class="mui-slider-item">
+											<a href="#">
+												<img src="../images/muwu.jpg">
+											</a>
+										</div>
+										<!-- 第三张 -->
+										<div class="mui-slider-item">
+											<a href="#">
+												<img src="../images/cbd.jpg">
+											</a>
+										</div>
+										<!-- 第四张 -->
+										<div class="mui-slider-item">
+											<a href="#">
+												<img src="../images/yuantiao.jpg">
+											</a>
+										</div>
+										<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+										<div class="mui-slider-item mui-slider-item-duplicate">
+											<a href="#">
+												<img src="../images/shuijiao.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="mui-slider-indicator">
+										<div class="mui-indicator mui-active"></div>
+										<div class="mui-indicator"></div>
+										<div class="mui-indicator"></div>
+										<div class="mui-indicator"></div>
+									</div>
+								</div>
+								<ul class="mui-table-view">
+									<li class=" mui-flex-all">
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text">说明文字</div>
+											</a>
+											<div class="mui-ellipsis">xxxx商品ssssssssssss</div>
+											<div>
+												<span>价格：¥100</span>
+												<a class="iconfont icon-xiangzi mui-pull-right"></a>
+											</div>
+										</div>
+										
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text">说明文字</div>
+											</a>
+											<div class="mui-ellipsis">xxxx商品ssssssssssss</div>
+											<div>
+												<span>价格：¥100</span>
+												<a class="iconfont icon-xiangzi mui-pull-right"></a>
+											</div>
+										</div>
+									</li>
+									<li class=" mui-flex-all">
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text">说明文字</div>
+											</a>
+											<div class="mui-ellipsis">xxxx商品ssssssssssss</div>
+											<div>
+												<span>价格：¥100</span>
+												<a class="iconfont icon-xiangzi mui-pull-right"></a>
+											</div>
+										</div>
+										
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text">说明文字</div>
+											</a>
+											<div class="mui-ellipsis">xxxx商品ssssssssssss</div>
+											<div>
+												<span>价格：¥100</span>
+												<a class="iconfont icon-xiangzi mui-pull-right"></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<ul class="mui-table-view">
+									<li class=" mui-flex-all">
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text mui-text-center">洗发水</div>
+											</a>
+										</div>
+										
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text mui-text-center">化妆品</div>
+											</a>
+										</div>
+									</li>
+									<li class=" mui-flex-all">
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text mui-text-center">日用品</div>
+											</a>
+										</div>
+										
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text mui-text-center">男士</div>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div id="item3mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll3" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<ul class="mui-table-view">
+									<li class=" mui-flex-all">
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text">活动公告</div>
+											</a>
+										</div>
+									</li>
+									<li class=" mui-flex-all">
+										<div class="mui-table-flex xh-textcontent">
+											<a class="xh-flexheight">
+												<img src="../images/cbd.jpg" class="xh-home-img" />
+												<div class="xh-home-text">活动公告</div>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script>
+			var phoneheight;
+			mui.init({
+				swipeBack: true,
+				keyEventBind: {
+					backbutton: false
+				}
+			});
+			mui.plusReady(function() {
+						mui('.mui-scroll-wrapper').scroll({
+							indicators: true //是否显示滚动条
+						});
+						phoneheight = plus.screen.resolutionHeight;
+						var muicc = document.getElementsByClassName("mui-control-content");
+						for (var i = 0; i < muicc.length; i++) {
+							muicc[i].style.minHeight = phoneheight - 80 + "px";
+						}
+			})
+			var slider2 = mui("#slider2");
+			slider2.slider({
+				interval: 3000
+			});
+		</script>
+
+	</body>
+
+</html>

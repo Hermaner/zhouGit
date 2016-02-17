@@ -1,0 +1,127 @@
+/*公共css*/
+html,body,.mui-content{
+	width: 100%;
+	height: 100%;
+	background-color: none;
+}
+.mui-scroll-wrapper{
+	overflow: auto;
+}
+.mui-flex-all {
+	display: -webkit-flex;
+	display: flex;
+	display: box;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.mui-table-flex {
+	-webkit-flex: 1;
+	flex: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+/*login页面css*/
+.xh-login{
+	background: url(../images/huali.jpg) no-repeat;
+	background-size:100% 100% ;
+}
+.xh-login .mui-content{
+	background: none;
+}
+.xh-login .loginwidth {
+	width: 80%;
+	margin-left: 10%;
+}
+.xh-login .mui-input-group {
+	background: none;
+}
+.xh-login .loginform {
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+}
+.mui-input-group:before{
+	height: 0;
+}
+.mui-input-group:after{
+	height: 0;
+}
+.mui-input-group .mui-input-row:after{
+	height: 0;
+}
+.xh-login .loginform span{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.xh-login .loginform input {
+	color: #FFFFFF;
+}
+.xh-login .login-bottomline {
+	border-bottom: 1px solid #FFFFFF;
+}
+.xh-login .loginlogo {
+	width: 150px;
+	height: 120px;
+	background: url(../images/logo1.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: 50px
+}
+.xh-login .link-area {
+	display: block;
+	margin-top: 25px;
+	text-align: center;
+}
+.xh-login .loginbtn{
+	padding: 0;
+	width:85%;
+	margin: 0 auto;
+	color: #000000;
+	border:1px solid #FFFFFF
+}
+.xh-login .spliter{
+	color: #FFFFFF;
+}
+.xh-login .register{
+	color: #FFFFFF;
+}
+
+/*home页面css*/
+#slider2 img{height: 150px;}
+.xh-home-img{
+	height: 100%;
+}
+.xh-home-text{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.4);
+	font-size: 12px;
+}
+.xh-flexheight{
+	height: 100px;
+	display: block;
+	position: relative;
+}
+.xh-textcontent{
+	padding: 5px;
+}
+#item2mobile .xh-home-text{
+	line-height: 30px;
+}

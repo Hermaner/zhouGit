@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="../js/mui.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link href="../css/iconfont.css" rel="stylesheet" />
+    <link href="../css/xhstyle.css" rel="stylesheet" />
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script>
+</head>
+<body class="xh-login">
+	<div class="mui-content">
+		<div class="loginlogo"></div>
+		<div class="loginwidth">
+			<form id='login-form' class="mui-input-group loginform">
+				<div class="mui-input-row login-bottomline">
+					<label><span class="mui-icon iconfont icon-jinggao"></span></label>
+					<input id='shopname' type="text" class="mui-input-clear mui-input" onblur="blurToast(this,'商家名称不能为空')" placeholder="商家名称">
+				</div>
+				<div class="mui-input-row login-bottomline">
+					<label><span class="mui-icon iconfont icon-mendianchaxun"></span></label>
+					<input id='shopno' type="text" class="mui-input-clear mui-input" onblur="blurToast(this,'门店编码不能为空')" placeholder="门店编码">
+				</div>
+				<div class="mui-input-row login-bottomline">
+					<label><span class="mui-icon iconfont icon-gongsiyuangong"></span></label>
+					<input id='account' type="text" class="mui-input-clear mui-input" onblur="blurToast(this,'会员帐号不能为空')" placeholder="会员帐号">
+				</div>
+				<div class="mui-input-row">
+					<label><span class="mui-icon iconfont icon-mima"></span></label>
+					<input id='password' type="password" class="mui-input-clear mui-input" onblur="blurToast(this,'密码不能为空')" placeholder="请输入密码">
+				</div>
+			</form>
+		</div>
+		<div class="mui-content-padded">
+			<button id='login' class="mui-btn mui-btn-block loginbtn">登录</button>
+			<div class="link-area"><a id='reg' class="register">注册账号</a> <span class="spliter">|</span> <a id='forgetPassword' class="register">忘记密码</a></div>
+		</div>
+	</div>
+</body>
+</html>
