@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="../js/mui.min.js"></script>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/xhstyle.css" rel="stylesheet" />
+		<style>
+			.activity{
+				background-color: #FFFFFF;
+			}
+			.activity .mui-content{
+				background-color: #FFFFFF;
+			}
+			#countdown p{
+				display: inline;
+			}
+			#countdown span{
+				background-color: #000000;
+				color: #FFFFFF;
+				padding: 3px;
+				border-radius: 5px;
+			}
+			.xh-activity-padtop{
+				padding-top: 10px;
+			}
+		</style>
+	</head>
+
+	<body class="activity">
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">xx活动详情页面</h1>
+		</header>
+		<div class="mui-content">
+			<div id="slider2" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../images/yuantiao.jpg">
+						</a>
+					</div>
+					<!-- 第一张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/shuijiao.jpg">
+						</a>
+					</div>
+					<!-- 第二张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/muwu.jpg">
+						</a>
+					</div>
+					<!-- 第三张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/cbd.jpg">
+						</a>
+					</div>
+					<!-- 第四张 -->
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../images/yuantiao.jpg">
+						</a>
+					</div>
+					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../images/shuijiao.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<div class="mui-text-center xh-activity-padtop">
+				<div class="allsize">-距离活动结束还有-</div>
+				<div id="countdown" class="xh-activity-padtop">
+					<span>0</span>
+					<span>3</span>
+					<p>天</p>
+					<span>0</span>
+					<span>3</span>
+					<p>时</p>
+					<span>5</span>
+					<span>3</span>
+					<p>分</p>
+					<span>2</span>
+					<span>3</span>
+					<p>秒</p>
+				</div>
+			</div>
+			<div class="mui-text-center allsize xh-activity-padtop">-活动说明-</div>
+			<div class="allsize xh-border xh-padding10">
+				此次活动的文字说明此次活动的文字说明此次活动的文字说明此次活动的文字说明此次活动的文字说明
+				此次活动的文字说明此次活动的文字说明此次活动的文字说明此次活动的文字说明此次活动的文字说明
+			</div>
+			<img src="../images/cbd.jpg" class="xh-oneitem-img xh-pad10" />
+			<img src="../images/shuijiao.jpg" class="xh-oneitem-img xh-pad10" />
+			<img src="../images/yuantiao.jpg" class="xh-oneitem-img xh-pad10" />
+		</div>
+		
+		
+		<script>
+			var slider2 = mui("#slider2");
+			slider2.slider({
+				interval: 3000
+			});
+		</script>
+	</body>
+
+</html>

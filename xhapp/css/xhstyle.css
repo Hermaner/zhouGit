@@ -1,12 +1,61 @@
 /*公共css*/
-html,body,.mui-content{
+
+html,
+body {
 	width: 100%;
 	height: 100%;
 	background-color: none;
 }
-.mui-scroll-wrapper{
+.lineheight17{
+	line-height: 17px;
+}
+.clearboth {
+	clear: both;
+}
+.xh-border {
+	border: 1px solid #EEEEEE;
+}
+.xh-border-bottom{
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.xh-textcontent {
+	padding: 5px;
+}
+
+.xh-padding10 {
+	padding: 10px;
+}
+.xh-pad10 {
+	padding: 0px 10px 10px 10px;
+}
+
+/*滚动图片css*/
+
+#slider2 img {
+	height: 150px;
+}
+
+.clearpadding {
+	padding: 0;
+}
+
+.allsize {
+	font-size: 12px;
+}
+
+.bigfont {
+	font-size: 18px;
+}
+
+.bigcart {
+	font-size: 30px;
+}
+
+.mui-scroll-wrapper {
 	overflow: auto;
 }
+
 .mui-flex-all {
 	display: -webkit-flex;
 	display: flex;
@@ -33,44 +82,58 @@ html,body,.mui-content{
 	-ms-flex: 1;
 	flex: 1;
 }
+
+
 /*login页面css*/
-.xh-login{
+
+.xh-login {
 	background: url(../images/huali.jpg) no-repeat;
-	background-size:100% 100% ;
+	background-size: 100% 100%;
 }
-.xh-login .mui-content{
+
+.xh-login .mui-content {
 	background: none;
 }
+
 .xh-login .loginwidth {
 	width: 80%;
 	margin-left: 10%;
 }
+
 .xh-login .mui-input-group {
 	background: none;
 }
+
 .xh-login .loginform {
 	border: 1px solid #FFFFFF;
 	border-radius: 4px;
 }
-.mui-input-group:before{
+
+.mui-input-group:before {
 	height: 0;
 }
-.mui-input-group:after{
+
+.mui-input-group:after {
 	height: 0;
 }
-.mui-input-group .mui-input-row:after{
+
+.mui-input-group .mui-input-row:after {
 	height: 0;
 }
-.xh-login .loginform span{
+
+.xh-login .loginform span {
 	color: #FFFFFF;
 	font-size: 20px;
 }
+
 .xh-login .loginform input {
 	color: #FFFFFF;
 }
+
 .xh-login .login-bottomline {
 	border-bottom: 1px solid #FFFFFF;
 }
+
 .xh-login .loginlogo {
 	width: 150px;
 	height: 120px;
@@ -81,47 +144,129 @@ html,body,.mui-content{
 	margin-left: -75px;
 	margin-top: 50px
 }
+
 .xh-login .link-area {
 	display: block;
 	margin-top: 25px;
 	text-align: center;
 }
-.xh-login .loginbtn{
+
+.xh-login .loginbtn {
 	padding: 0;
-	width:85%;
+	width: 85%;
 	margin: 0 auto;
 	color: #000000;
-	border:1px solid #FFFFFF
+	border: 1px solid #FFFFFF
 }
-.xh-login .spliter{
-	color: #FFFFFF;
-}
-.xh-login .register{
+
+.xh-login .spliter {
 	color: #FFFFFF;
 }
 
+.xh-login .register {
+	color: #FFFFFF;
+}
+
+
 /*home页面css*/
-#slider2 img{height: 150px;}
-.xh-home-img{
+
+.xh-home-img {
 	height: 100%;
 }
-.xh-home-text{
+
+.xh-home-text {
 	width: 100%;
 	height: 30px;
 	position: absolute;
 	bottom: 0;
 	color: #FFFFFF;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0, 0, 0, 0.4);
 	font-size: 12px;
 }
-.xh-flexheight{
+
+.xh-flexheight {
 	height: 100px;
 	display: block;
 	position: relative;
 }
-.xh-textcontent{
-	padding: 5px;
-}
-#item2mobile .xh-home-text{
+
+#item2mobile .xh-home-text {
 	line-height: 30px;
+}
+/*oneitem页面css*/
+.xh-oneitem-img {
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+
+.xh-oneitem-cart {
+	font-size: 12px;
+	width: 70px;
+	position: relative;
+	border-left: 1px dashed #EEEEEE;
+}
+
+.xh-oneitem-pad {
+	font-size: 12px;
+	padding: 0 10px;
+}
+
+.bigcart-sxcenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.xh-oneitem-word {
+	width: 100px;
+	color: #666;
+}
+
+.xh-btn-buy {
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+}
+
+#caption:before {
+	height: 0;
+}
+
+/*buyhistory页面css*/
+.buyhistory input.inputbac {
+	background-color: #FFFFFF;
+	padding-left: 30px;
+	margin-bottom: 0;
+}
+.buyhistory-search {
+	position: absolute;
+	left: 10px;
+	margin-top: 5px;
+	color: #CCCCCC;
+}
+.buyhistory-ss {
+	width: 50px;
+	height: 34px;
+	margin-left: 10px;
+}
+.buyhistory-pic {
+	width: 48px;
+	height: 48px;
+	margin-right: 5px;
+	background-size: 100% 100%;
+}
+.buyhistory-ellipsis {
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+}
+.buyhistory-lefttext{
+	width: 110px;
+	padding-left:10px;
+	line-height:17px;
+	text-align: right;
 }
