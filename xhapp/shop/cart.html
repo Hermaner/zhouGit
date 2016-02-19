@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="../js/mui.min.js"></script>
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link href="../css/xhstyle.css" rel="stylesheet" />
+		<style>
+			.xh-cart-marleft10{
+				margin-left: 10px;
+			}
+			input.changeinput.xh-cart-marleft10{
+				top:2px;
+			}
+			.xh-cart-marleft25{
+				margin-left: 25px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">购物车</h1>
+		</header>
+		<div class="mui-content">
+			<div class="mui-scroll">
+				<ul class="mui-table-view">
+					<li class="mui-flex-all xh-border-bottom xh-padding10">
+						<div class="mui-input-row mui-checkbox mui-flex-checkwidth mui-flex-changeinput">
+							<input name="checkbox" class="changeinput" value="Item 1" type="checkbox">
+						</div>
+						<div class="mui-table-flex">
+							<div class="mui-flex-all">
+								<img src="../images/cbd.jpg" class="buyhistory-pic" />
+								<div class="mui-table-flex lineheight17">
+									<span class="buyhistory-ellipsis">商品名称</span>
+									<span class="buyhistory-ellipsis">规格</span>
+									<span class="buyhistory-ellipsis">其他信息</span>
+								</div>
+								<div class="buyhistory-lefttext positionre">
+									<span class="buyhistory-ellipsis">价格：¥100</span>
+									<div class="mui-numbox mui-flex-numbox openNum" data-numbox-min="1">
+										<button class="mui-btn mui-numbox-btn-minus" type="button" disabled="">-</button>
+										<input class="mui-numbox-input" type="number" value="1">
+										<button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="mui-flex-all xh-border-bottom xh-padding10">
+						<div class="mui-input-row mui-checkbox mui-flex-checkwidth mui-flex-changeinput">
+							<input name="checkbox" class="changeinput" value="Item 1" type="checkbox">
+						</div>
+						<div class="mui-table-flex">
+							<div class="mui-flex-all">
+								<img src="../images/cbd.jpg" class="buyhistory-pic" />
+								<div class="mui-table-flex lineheight17">
+									<span class="buyhistory-ellipsis">商品名称</span>
+									<span class="buyhistory-ellipsis">规格</span>
+									<span class="buyhistory-ellipsis">其他信息</span>
+								</div>
+								<div class="buyhistory-lefttext positionre">
+									<span class="buyhistory-ellipsis">价格：¥100</span>
+									<div class="mui-numbox mui-flex-numbox openNum" data-numbox-min="1">
+										<button class="mui-btn mui-numbox-btn-minus" type="button" disabled="">-</button>
+										<input class="mui-numbox-input" type="number" value="1">
+										<button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottomfix">
+			<div class="mui-flex-all">
+				<div class="mui-input-row mui-checkbox mui-flex-checkwidth xh-cart-marleft10">
+					<input name="checkbox" class="changeinput" value="Item 1" type="checkbox">
+				</div>
+				<div class="mui-table-flex">
+					<div class="mui-flex-all">
+						<div class="mui-table-flex lineheight40">
+							<span class="buyhistory-ellipsis">合计：¥100</span>
+						</div>
+						<div class="buyhistory-lefttext xh-textcontent">
+							<button class="mui-btn-mini xh-textcontent">删除</button>
+							<button class="mui-btn-mini xh-textcontent">结算</button>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</body>
+
+</html>

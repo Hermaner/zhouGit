@@ -6,8 +6,60 @@ body {
 	height: 100%;
 	background-color: none;
 }
+.mui-numbox {
+	padding: 0px;
+	width: 90px;
+	height: auto;
+}
+.mui-flex-numbox {
+	right: 0px;
+	top: 30px;
+	position: absolute;
+}
+.mui-numbox [class*=mui-numbox-btn] {
+	width: 30px;
+}
+.mui-numbox .mui-numbox-input {
+	font-size: 12px;
+	color: #555;
+}
+.mui-newlist-body .mui-numbox [class*=mui-numbox-btn] {
+	width: 30px;
+}
+.changeinput{
+	top:0;
+	left: 0;
+}
+.mui-table-view-cell .mui-input-group .mui-input-row{
+	height: 30px;
+}
+.mui-flex-checkwidth {
+	width: 30px;
+}
+.mui-flex-changeinput {
+	top: 50%;
+	left: 0px;
+	margin-top: 6px;
+}
+.positionre{
+	position: relative;
+}
+.bottomfix{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	height: 40px;
+}
+.allbc{
+	background-color: #FFFFFF;
+}
 .lineheight17{
 	line-height: 17px;
+}
+.lineheight40{
+	line-height: 40px;
 }
 .clearboth {
 	clear: both;
@@ -17,6 +69,9 @@ body {
 }
 .xh-border-bottom{
 	border-bottom: 1px solid #EEEEEE;
+}
+.xh-margin10{
+	margin:10px;
 }
 
 .xh-textcontent {
@@ -171,6 +226,7 @@ body {
 /*home页面css*/
 
 .xh-home-img {
+	width: 100%;
 	height: 100%;
 }
 
@@ -270,3 +326,5 @@ body {
 	line-height:17px;
 	text-align: right;
 }
+
+/*score页面css*/
