@@ -306,6 +306,7 @@ body {
 	width: 50px;
 	height: 34px;
 	margin-left: 10px;
+	padding: 0;
 }
 .buyhistory-pic {
 	width: 48px;
@@ -327,4 +328,32 @@ body {
 	text-align: right;
 }
 
-/*score页面css*/
+/*search页面css*/
+.search input.inputbac {
+	background-color: #FFFFFF;
+	padding-left: 30px;
+	margin-bottom: 0;
+}
+
+/*listdetail页面css*/
+.listdetail .mui-content .lid-top0{
+	margin-top:2px;
+	padding: 10px;
+}
+.listdetail span{
+	font-size: 12px;
+}
+.listdetail p{
+	font-size: 12px;
+	line-height: 12px;
+}
+.lidpad10{
+	padding: 0px 10px;
+}
+.lidname{
+	padding: 5px 10px;
+	font-size: 12px;
+}
+.lid-seeall{
+	font-weight:900;border:1px solid #007aff;padding:5px;border-radius:5px;color:#007aff;
+}
